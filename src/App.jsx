@@ -48,17 +48,27 @@ function App() {
 
   const handleAddTrack = e => {
     e.preventDefault()
-  
-      setSelectedTracks([...selectedTracks, filteredTracks[e.currentTarget.value]])
 
+    const dataObjectString = e.currentTarget.getAttribute('data-object');
+    const dataObject = JSON.parse(dataObjectString);
+  
+    if (!selectedTracks.find(track => track.id === dataObject.id)) {
+      setSelectedTracks([...selectedTracks, dataObject])
+      console.log("Track added to playlist")
+    }
   }
 
   const handleRemoveTrack = e => {
     e.preventDefault() 
-    setSelectedTracks(selectedTracks.filter(track => track.id !== e.target.value))
+
+    const dataObjectString = e.currentTarget.getAttribute('data-object');
+    const dataObject = JSON.parse(dataObjectString);
+
+    setSelectedTracks(selectedTracks.filter(track => track.id !== dataObject.id))
   }
 
-  console.log(selectedTracks)
+  console.log("Filtered Tracks", filteredTracks)
+  console.log("Selected Tracks", selectedTracks)
 
   return (
     <div>
@@ -83,7 +93,7 @@ function App() {
         </form>
       </div>
       <div className='grid grid-cols-2 gap-1 h-full mt-10'>
-        <Tracklist filteredTracks={filteredTracks} handleAddTrack={handleAddTrack} />
+        <Tracklist filteredTracks={filteredTracks} handleAddTrack={handleAddTrack} handleRemoveTrack={handleRemoveTrack} />
         <Playlist selectedTracks={selectedTracks} handleRemoveTrack={handleRemoveTrack} />
       </div>
     </div>

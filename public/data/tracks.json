@@ -1,86 +1,14 @@
 [
   {
     "id": 0,
-    "name": "Blinding Lights",
-    "artist": "The Weeknd",
-    "album": "After Hours",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/blinding-lights.jpg"
+    "name": "Sunflower",
+    "artist": "Post Malone & Swae Lee",
+    "album": "Spider-Man: Into the Spider-Verse",
+    "year": 2018,
+    "coverUrl": "https://example.com/covers/sunflower.jpg"
   },
   {
     "id": 1,
-    "name": "Watermelon Sugar",
-    "artist": "Harry Styles",
-    "album": "Fine Line",
-    "year": 2019,
-    "coverUrl": "https://example.com/covers/watermelon-sugar.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Levitating",
-    "artist": "Dua Lipa",
-    "album": "Future Nostalgia",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/levitating.jpg"
-  },
-  {
-    "id": 3,
-    "name": "Shape of You",
-    "artist": "Ed Sheeran",
-    "album": "÷ (Divide)",
-    "year": 2017,
-    "coverUrl": "https://example.com/covers/shape-of-you.jpg"
-  },
-  {
-    "id": 3,
-    "name": "Uptown Funk",
-    "artist": "Mark Ronson ft. Bruno Mars",
-    "album": "Uptown Special",
-    "year": 2014,
-    "coverUrl": "https://example.com/covers/uptown-funk.jpg"
-  },
-  {
-    "id": "6",
-    "name": "Bad Guy",
-    "artist": "Billie Eilish",
-    "album": "When We All Fall Asleep, Where Do We Go?",
-    "year": 2019,
-    "coverUrl": "https://example.com/covers/bad-guy.jpg"
-  },
-  {
-    "id": "7",
-    "name": "Old Town Road",
-    "artist": "Lil Nas X",
-    "album": "7",
-    "year": 2019,
-    "coverUrl": "https://example.com/covers/old-town-road.jpg"
-  },
-  {
-    "id": "8",
-    "name": "Rolling in the Deep",
-    "artist": "Adele",
-    "album": "21",
-    "year": 2010,
-    "coverUrl": "https://example.com/covers/rolling-in-the-deep.jpg"
-  },
-  {
-    "id": "9",
-    "name": "Happy",
-    "artist": "Pharrell Williams",
-    "album": "Girl",
-    "year": 2013,
-    "coverUrl": "https://example.com/covers/happy.jpg"
-  },
-  {
-    "id": "10",
-    "name": "Can't Stop the Feeling!",
-    "artist": "Justin Timberlake",
-    "album": "Trolls (Original Motion Picture Soundtrack)",
-    "year": 2016,
-    "coverUrl": "https://example.com/covers/cant-stop-the-feeling.jpg"
-  },
-  {
-    "id": "11",
     "name": "Circles",
     "artist": "Post Malone",
     "album": "Hollywood's Bleeding",
@@ -88,119 +16,7 @@
     "coverUrl": "https://example.com/covers/circles.jpg"
   },
   {
-    "id": "12",
-    "name": "Sunflower",
-    "artist": "Post Malone & Swae Lee",
-    "album": "Spider-Man: Into the Spider-Verse (Soundtrack)",
-    "year": 2018,
-    "coverUrl": "https://example.com/covers/sunflower.jpg"
-  },
-  {
-    "id": "13",
-    "name": "Dance Monkey",
-    "artist": "Tones and I",
-    "album": "The Kids Are Coming",
-    "year": 2019,
-    "coverUrl": "https://example.com/covers/dance-monkey.jpg"
-  },
-  {
-    "id": "14",
-    "name": "Senorita",
-    "artist": "Shawn Mendes & Camila Cabello",
-    "album": "Romance",
-    "year": 2019,
-    "coverUrl": "https://example.com/covers/senorita.jpg"
-  },
-  {
-    "id": "15",
-    "name": "Don't Start Now",
-    "artist": "Dua Lipa",
-    "album": "Future Nostalgia",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/dont-start-now.jpg"
-  },
-  {
-    "id": "16",
-    "name": "Savage Love",
-    "artist": "Jawsh 685 & Jason Derulo",
-    "album": "Savage Love (Laxed - Siren Beat)",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/savage-love.jpg"
-  },
-  {
-    "id": "17",
-    "name": "Peaches",
-    "artist": "Justin Bieber ft. Daniel Caesar & Giveon",
-    "album": "Justice",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/peaches.jpg"
-  },
-  {
-    "id": "18",
-    "name": "Good 4 U",
-    "artist": "Olivia Rodrigo",
-    "album": "SOUR",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/good-4-u.jpg"
-  },
-  {
-    "id": "19",
-    "name": "drivers license",
-    "artist": "Olivia Rodrigo",
-    "album": "SOUR",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/drivers-license.jpg"
-  },
-  {
-    "id": "20",
-    "name": "Stay",
-    "artist": "The Kid LAROI & Justin Bieber",
-    "album": "F*ck Love 3: Over You",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/stay.jpg"
-  },
-  {
-    "id": "21",
-    "name": "Industry Baby",
-    "artist": "Lil Nas X & Jack Harlow",
-    "album": "Montero",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/industry-baby.jpg"
-  },
-  {
-    "id": "22",
-    "name": "Montero (Call Me By Your Name)",
-    "artist": "Lil Nas X",
-    "album": "Montero",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/montero.jpg"
-  },
-  {
-    "id": "23",
-    "name": "Butter",
-    "artist": "BTS",
-    "album": "Butter (Single)",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/butter.jpg"
-  },
-  {
-    "id": "24",
-    "name": "Permission to Dance",
-    "artist": "BTS",
-    "album": "Butter (Single)",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/permission-to-dance.jpg"
-  },
-  {
-    "id": "25",
-    "name": "Shallow",
-    "artist": "Lady Gaga & Bradley Cooper",
-    "album": "A Star Is Born (Soundtrack)",
-    "year": 2018,
-    "coverUrl": "https://example.com/covers/shallow.jpg"
-  },
-  {
-    "id": "26",
+    "id": 2,
     "name": "Someone You Loved",
     "artist": "Lewis Capaldi",
     "album": "Divinely Uninspired to a Hellish Extent",
@@ -208,15 +24,71 @@
     "coverUrl": "https://example.com/covers/someone-you-loved.jpg"
   },
   {
-    "id": "27",
-    "name": "Truth Hurts",
-    "artist": "Lizzo",
-    "album": "Cuz I Love You",
+    "id": 3,
+    "name": "Sucker",
+    "artist": "Jonas Brothers",
+    "album": "Happiness Begins",
     "year": 2019,
-    "coverUrl": "https://example.com/covers/truth-hurts.jpg"
+    "coverUrl": "https://example.com/covers/sucker.jpg"
   },
   {
-    "id": "28",
+    "id": 4,
+    "name": "Señorita",
+    "artist": "Shawn Mendes & Camila Cabello",
+    "album": "Señorita (Single)",
+    "year": 2019,
+    "coverUrl": "https://example.com/covers/senorita.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Bad Habits",
+    "artist": "Ed Sheeran",
+    "album": "Equals",
+    "year": 2021,
+    "coverUrl": "https://example.com/covers/bad-habits.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Easy On Me",
+    "artist": "Adele",
+    "album": "30",
+    "year": 2021,
+    "coverUrl": "https://example.com/covers/easy-on-me.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Good Days",
+    "artist": "SZA",
+    "album": "SOS",
+    "year": 2021,
+    "coverUrl": "https://example.com/covers/good-days.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Blinding Lights",
+    "artist": "The Weeknd",
+    "album": "After Hours",
+    "year": 2020,
+    "coverUrl": "https://example.com/covers/blinding-lights.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Lose You To Love Me",
+    "artist": "Selena Gomez",
+    "album": "Rare",
+    "year": 2019,
+    "coverUrl": "https://example.com/covers/lose-you-to-love-me.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Dance Monkey",
+    "artist": "Tones and I",
+    "album": "The Kids Are Coming",
+    "year": 2019,
+    "coverUrl": "https://example.com/covers/dance-monkey.jpg"
+  },
+  {
+    "id": 11,
     "name": "Memories",
     "artist": "Maroon 5",
     "album": "Jordi",
@@ -224,7 +96,23 @@
     "coverUrl": "https://example.com/covers/memories.jpg"
   },
   {
-    "id": "29",
+    "id": 12,
+    "name": "Savage Love",
+    "artist": "Jawsh 685 & Jason Derulo",
+    "album": "Savage Love (Single)",
+    "year": 2020,
+    "coverUrl": "https://example.com/covers/savage-love.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Don't Start Now",
+    "artist": "Dua Lipa",
+    "album": "Future Nostalgia",
+    "year": 2020,
+    "coverUrl": "https://example.com/covers/dont-start-now.jpg"
+  },
+  {
+    "id": 14,
     "name": "Rockstar",
     "artist": "DaBaby ft. Roddy Ricch",
     "album": "Blame It on Baby",
@@ -232,39 +120,7 @@
     "coverUrl": "https://example.com/covers/rockstar.jpg"
   },
   {
-    "id": "30",
-    "name": "Life Goes On",
-    "artist": "BTS",
-    "album": "BE",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/life-goes-on.jpg"
-  },
-  {
-    "id": "31",
-    "name": "Blinding Lights",
-    "artist": "The Weeknd",
-    "album": "After Hours",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/blinding-lights.jpg"
-  },
-  {
-    "id": "32",
-    "name": "Save Your Tears",
-    "artist": "The Weeknd",
-    "album": "After Hours",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/save-your-tears.jpg"
-  },
-  {
-    "id": "33",
-    "name": "Heat Waves",
-    "artist": "Glass Animals",
-    "album": "Dreamland",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/heat-waves.jpg"
-  },
-  {
-    "id": "34",
+    "id": 15,
     "name": "Mood",
     "artist": "24kGoldn ft. Iann Dior",
     "album": "El Dorado",
@@ -272,15 +128,7 @@
     "coverUrl": "https://example.com/covers/mood.jpg"
   },
   {
-    "id": "35",
-    "name": "Say So",
-    "artist": "Doja Cat",
-    "album": "Hot Pink",
-    "year": 2019,
-    "coverUrl": "https://example.com/covers/say-so.jpg"
-  },
-  {
-    "id": "36",
+    "id": 16,
     "name": "The Box",
     "artist": "Roddy Ricch",
     "album": "Please Excuse Me for Being Antisocial",
@@ -288,23 +136,7 @@
     "coverUrl": "https://example.com/covers/the-box.jpg"
   },
   {
-    "id": "37",
-    "name": "Before You Go",
-    "artist": "Lewis Capaldi",
-    "album": "Divinely Uninspired to a Hellish Extent",
-    "year": 2019,
-    "coverUrl": "https://example.com/covers/before-you-go.jpg"
-  },
-  {
-    "id": "38",
-    "name": "Roses (Imanbek Remix)",
-    "artist": "SAINt JHN",
-    "album": "While the World Was Burning",
-    "year": 2019,
-    "coverUrl": "https://example.com/covers/roses.jpg"
-  },
-  {
-    "id": "39",
+    "id": 17,
     "name": "Intentions",
     "artist": "Justin Bieber ft. Quavo",
     "album": "Changes",
@@ -312,135 +144,55 @@
     "coverUrl": "https://example.com/covers/intentions.jpg"
   },
   {
-    "id": "40",
-    "name": "Bad Habits",
-    "artist": "Ed Sheeran",
-    "album": "=",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/bad-habits.jpg"
-  },
-  {
-    "id": "41",
-    "name": "Ghost",
-    "artist": "Justin Bieber",
-    "album": "Justice",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/ghost.jpg"
-  },
-  {
-    "id": "42",
-    "name": "Heat Waves",
-    "artist": "Glass Animals",
-    "album": "Dreamland",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/heat-waves.jpg"
-  },
-  {
-    "id": "43",
-    "name": "positions",
-    "artist": "Ariana Grande",
-    "album": "Positions",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/positions.jpg"
-  },
-  {
-    "id": "44",
-    "name": "Good as Hell",
-    "artist": "Lizzo",
-    "album": "Cuz I Love You",
+    "id": 18,
+    "name": "Before You Go",
+    "artist": "Lewis Capaldi",
+    "album": "Divinely Uninspired to a Hellish Extent",
     "year": 2019,
-    "coverUrl": "https://example.com/covers/good-as-hell.jpg"
+    "coverUrl": "https://example.com/covers/before-you-go.jpg"
   },
   {
-    "id": "45",
-    "name": "Break My Heart",
-    "artist": "Dua Lipa",
-    "album": "Future Nostalgia",
+    "id": 19,
+    "name": "Wonder",
+    "artist": "Shawn Mendes",
+    "album": "Wonder",
     "year": 2020,
-    "coverUrl": "https://example.com/covers/break-my-heart.jpg"
+    "coverUrl": "https://example.com/covers/wonder.jpg"
   },
   {
-    "id": "46",
-    "name": "Cardigan",
-    "artist": "Taylor Swift",
-    "album": "Folklore",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/cardigan.jpg"
-  },
-  {
-    "id": "47",
-    "name": "WAP",
-    "artist": "Cardi B ft. Megan Thee Stallion",
-    "album": "WAP (Single)",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/wap.jpg"
-  },
-  {
-    "id": "48",
-    "name": "Therefore I Am",
+    "id": 20,
+    "name": "Everything I Wanted",
     "artist": "Billie Eilish",
-    "album": "Happier Than Ever",
+    "album": "Everything I Wanted (Single)",
+    "year": 2019,
+    "coverUrl": "https://example.com/covers/everything-i-wanted.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Roses",
+    "artist": "SAINt JHN",
+    "album": "Ghetto Lenny's Love Songs",
+    "year": 2018,
+    "coverUrl": "https://example.com/covers/roses.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Life Goes On",
+    "artist": "BTS",
+    "album": "BE",
     "year": 2020,
-    "coverUrl": "https://example.com/covers/therefore-i-am.jpg"
+    "coverUrl": "https://example.com/covers/life-goes-on.jpg"
   },
   {
-    "id": "49",
-    "name": "For the Night",
-    "artist": "Pop Smoke ft. Lil Baby & DaBaby",
-    "album": "Shoot for the Stars, Aim for the Moon",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/for-the-night.jpg"
+    "id": 23,
+    "name": "Say So",
+    "artist": "Doja Cat",
+    "album": "Hot Pink",
+    "year": 2019,
+    "coverUrl": "https://example.com/covers/say-so.jpg"
   },
   {
-    "id": "50",
-    "name": "Levitating",
-    "artist": "Dua Lipa ft. DaBaby",
-    "album": "Future Nostalgia",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/levitating.jpg"
-  },
-  {
-    "id": "51",
-    "name": "Late Night Talking",
-    "artist": "Harry Styles",
-    "album": "Harry's House",
-    "year": 2022,
-    "coverUrl": "https://example.com/covers/late-night-talking.jpg"
-  },
-  {
-    "id": "52",
-    "name": "As It Was",
-    "artist": "Harry Styles",
-    "album": "Harry's House",
-    "year": 2022,
-    "coverUrl": "https://example.com/covers/as-it-was.jpg"
-  },
-  {
-    "id": "53",
-    "name": "Heat Waves",
-    "artist": "Glass Animals",
-    "album": "Dreamland",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/heat-waves.jpg"
-  },
-  {
-    "id": "54",
-    "name": "Blinding Lights",
-    "artist": "The Weeknd",
-    "album": "After Hours",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/blinding-lights.jpg"
-  },
-  {
-    "id": "55",
-    "name": "Save Your Tears",
-    "artist": "The Weeknd",
-    "album": "After Hours",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/save-your-tears.jpg"
-  },
-  {
-    "id": "56",
+    "id": 24,
     "name": "Peaches",
     "artist": "Justin Bieber ft. Daniel Caesar & Giveon",
     "album": "Justice",
@@ -448,7 +200,7 @@
     "coverUrl": "https://example.com/covers/peaches.jpg"
   },
   {
-    "id": "57",
+    "id": 25,
     "name": "Levitating",
     "artist": "Dua Lipa",
     "album": "Future Nostalgia",
@@ -456,7 +208,15 @@
     "coverUrl": "https://example.com/covers/levitating.jpg"
   },
   {
-    "id": "58",
+    "id": 26,
+    "name": "Heat Waves",
+    "artist": "Glass Animals",
+    "album": "Dreamland",
+    "year": 2020,
+    "coverUrl": "https://example.com/covers/heat-waves.jpg"
+  },
+  {
+    "id": 27,
     "name": "Watermelon Sugar",
     "artist": "Harry Styles",
     "album": "Fine Line",
@@ -464,7 +224,7 @@
     "coverUrl": "https://example.com/covers/watermelon-sugar.jpg"
   },
   {
-    "id": "59",
+    "id": 28,
     "name": "Good 4 U",
     "artist": "Olivia Rodrigo",
     "album": "SOUR",
@@ -472,336 +232,11 @@
     "coverUrl": "https://example.com/covers/good-4-u.jpg"
   },
   {
-    "id": "60",
+    "id": 29,
     "name": "Drivers License",
     "artist": "Olivia Rodrigo",
     "album": "SOUR",
     "year": 2021,
     "coverUrl": "https://example.com/covers/drivers-license.jpg"
-  },
-  {
-    "id": "61",
-    "name": "Montero (Call Me By Your Name)",
-    "artist": "Lil Nas X",
-    "album": "Montero",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/montero.jpg"
-  },
-  {
-    "id": "62",
-    "name": "Industry Baby",
-    "artist": "Lil Nas X & Jack Harlow",
-    "album": "Montero",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/industry-baby.jpg"
-  },
-  {
-    "id": "63",
-    "name": "Stay",
-    "artist": "The Kid LAROI & Justin Bieber",
-    "album": "F*ck Love 3: Over You",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/stay.jpg"
-  },
-  {
-    "id": "64",
-    "name": "Shallow",
-    "artist": "Lady Gaga & Bradley Cooper",
-    "album": "A Star Is Born (Soundtrack)",
-    "year": 2018,
-    "coverUrl": "https://example.com/covers/shallow.jpg"
-  },
-  {
-    "id": "65",
-    "name": "Happier Than Ever",
-    "artist": "Billie Eilish",
-    "album": "Happier Than Ever",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/happier-than-ever.jpg"
-  },
-  {
-    "id": "66",
-    "name": "Butter",
-    "artist": "BTS",
-    "album": "Butter (Single)",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/butter.jpg"
-  },
-  {
-    "id": "67",
-    "name": "Permission to Dance",
-    "artist": "BTS",
-    "album": "Butter (Single)",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/permission-to-dance.jpg"
-  },
-  {
-    "id": "68",
-    "name": "Dynamite",
-    "artist": "BTS",
-    "album": "BE",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/dynamite.jpg"
-  },
-  {
-    "id": "69",
-    "name": "Deja Vu",
-    "artist": "Olivia Rodrigo",
-    "album": "SOUR",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/deja-vu.jpg"
-  },
-  {
-    "id": "70",
-    "name": "My Universe",
-    "artist": "Coldplay x BTS",
-    "album": "Music of the Spheres",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/my-universe.jpg"
-  },
-  {
-    "id": "71",
-    "name": "Kiss Me More",
-    "artist": "Doja Cat ft. SZA",
-    "album": "Planet Her",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/kiss-me-more.jpg"
-  },
-  {
-    "id": "72",
-    "name": "Heat Waves",
-    "artist": "Glass Animals",
-    "album": "Dreamland",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/heat-waves.jpg"
-  },
-  {
-    "id": "73",
-    "name": "Good as Hell",
-    "artist": "Lizzo",
-    "album": "Cuz I Love You",
-    "year": 2019,
-    "coverUrl": "https://example.com/covers/good-as-hell.jpg"},
-    {
-    "id": "74",
-    "name": "Break My Heart",
-    "artist": "Dua Lipa",
-    "album": "Future Nostalgia",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/break-my-heart.jpg"
-  },
-  {
-    "id": "75",
-    "name": "Cardigan",
-    "artist": "Taylor Swift",
-    "album": "Folklore",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/cardigan.jpg"
-  },
-  {
-    "id": "76",
-    "name": "WAP",
-    "artist": "Cardi B ft. Megan Thee Stallion",
-    "album": "WAP (Single)",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/wap.jpg"
-  },
-  {
-    "id": "77",
-    "name": "Therefore I Am",
-    "artist": "Billie Eilish",
-    "album": "Happier Than Ever",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/therefore-i-am.jpg"
-  },
-  {
-    "id": "78",
-    "name": "For the Night",
-    "artist": "Pop Smoke ft. Lil Baby & DaBaby",
-    "album": "Shoot for the Stars, Aim for the Moon",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/for-the-night.jpg"
-  },
-  {
-    "id": "79",
-    "name": "Levitating",
-    "artist": "Dua Lipa ft. DaBaby",
-    "album": "Future Nostalgia",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/levitating.jpg"
-  },
-  {
-    "id": "80",
-    "name": "Late Night Talking",
-    "artist": "Harry Styles",
-    "album": "Harry's House",
-    "year": 2022,
-    "coverUrl": "https://example.com/covers/late-night-talking.jpg"
-  },
-  {
-    "id": "81",
-    "name": "As It Was",
-    "artist": "Harry Styles",
-    "album": "Harry's House",
-    "year": 2022,
-    "coverUrl": "https://example.com/covers/as-it-was.jpg"
-  },
-  {
-    "id": "82",
-    "name": "Heat Waves",
-    "artist": "Glass Animals",
-    "album": "Dreamland",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/heat-waves.jpg"
-  },
-  {
-    "id": "83",
-    "name": "Blinding Lights",
-    "artist": "The Weeknd",
-    "album": "After Hours",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/blinding-lights.jpg"
-  },
-  {
-    "id": "84",
-    "name": "Save Your Tears",
-    "artist": "The Weeknd",
-    "album": "After Hours",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/save-your-tears.jpg"
-  },
-  {
-    "id": "85",
-    "name": "Peaches",
-    "artist": "Justin Bieber ft. Daniel Caesar & Giveon",
-    "album": "Justice",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/peaches.jpg"
-  },
-  { 
-    "id": "86",
-    "name": "Good 4 U",
-    "artist": "Olivia Rodrigo",
-    "album": "SOUR",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/good-4-u.jpg"
-  },
-  {
-    "id": "87",
-    "name": "Drivers License",
-    "artist": "Olivia Rodrigo",
-    "album": "SOUR",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/drivers-license.jpg"
-  },
-  {
-    "id": "88",
-    "name": "Montero (Call Me By Your Name)",
-    "artist": "Lil Nas X",
-    "album": "Montero",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/montero.jpg"
-  },
-  {
-    "id": "89",
-    "name": "Industry Baby",
-    "artist": "Lil Nas X & Jack Harlow",
-    "album": "Montero",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/industry-baby.jpg"
-  },
-  {
-    "id": "90",
-    "name": "Stay",
-    "artist": "The Kid LAROI & Justin Bieber",
-    "album": "F*ck Love 3: Over You",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/stay.jpg"
-  },
-  {
-    "id": "91",
-    "name": "Shallow",
-    "artist": "Lady Gaga & Bradley Cooper",
-    "album": "A Star Is Born (Soundtrack)",
-    "year": 2018,
-    "coverUrl": "https://example.com/covers/shallow.jpg"
-  },
-  {
-    "id": "92",
-    "name": "Happier Than Ever",
-    "artist": "Billie Eilish",
-    "album": "Happier Than Ever",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/happier-than-ever.jpg"
-  },
-  {
-    "id": "93",
-    "name": "Butter",
-    "artist": "BTS",
-    "album": "Butter (Single)",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/butter.jpg"
-  },
-  {
-    "id": "94",
-    "name": "Permission to Dance",
-    "artist": "BTS",
-    "album": "Butter (Single)",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/permission-to-dance.jpg"
-  },
-  {
-    "id": "95",
-    "name": "Dynamite",
-    "artist": "BTS",
-    "album": "BE",
-    "year": 2020,
-    "coverUrl": "https://example.com/covers/dynamite.jpg"
-  },
-  {
-    "id": "96",
-    "name": "Deja Vu",
-    "artist": "Olivia Rodrigo",
-    "album": "SOUR",
-    "year": 2022,
-    "coverUrl": "https://example.com/covers/deja-vu.jpg"
-  },
-  {
-    "id": "97",
-    "name": "My Universe",
-    "artist": "Coldplay x BTS",
-    "album": "Music of the Spheres",
-    "year": 2022,
-    "coverUrl": "https://example.com/covers/my-universe.jpg"
-  },
-  {
-    "id": "98",
-    "name": "Kiss Me More",
-    "artist": "Doja Cat ft. SZA",
-    "album": "Planet Her",
-    "year": 2021,
-    "coverUrl": "https://example.com/covers/kiss-me-more.jpg"
-  }, {
-    "id": "99",
-    "name": "Heat Waves",
-    "artist": "Glass Animals",
-    "album": "Dreamland",
-    "year": 2022,
-    "coverUrl": "https://example.com/covers/heat-waves.jpg"
-  }, {
-    "id": "100",
-    "name": "Good as Hell",
-    "artist": "Lizzo",
-    "album": "Cuz I Love You",
-    "year": 2022,
-    "coverUrl": "https://example.com/covers/good-as-hell.jpg"
-  },
-  {
-    "id": "101",
-    "name": "Break My Heart",
-    "artist": "Dua Lipa",
-    "album": "Future Nostalgia",
-    "year": 2022,
-    "coverUrl": "https://example.com/covers/break-my-heart.jpg"
   }
 ]
