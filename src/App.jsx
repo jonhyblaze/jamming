@@ -2,6 +2,7 @@ import './App.css'
 import { useState, useEffect } from 'react'
 import Tracklist from './components/Tracklist'
 import Playlist from './components/Playlist';
+import SuccessModal from './components/SucessModal';
 
 
 function App() {
@@ -10,7 +11,10 @@ function App() {
   const [searchRequest, setSearchRequest] = useState('');
   const [filteredTracks, setFilteredTracks] = useState([]);
   const [selectedTracks, setSelectedTracks] = useState([]);
-
+  const [playlistName, setPlaylistName] = useState('New Playlist');
+  const [savedPlaylists, setSavedPlaylists] = useState({});
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  
   
   useEffect(() => {
     if (searchRequest.length > 0) {
@@ -67,35 +71,74 @@ function App() {
     setSelectedTracks(selectedTracks.filter(track => track.id !== dataObject.id))
   }
 
-  console.log("Filtered Tracks", filteredTracks)
-  console.log("Selected Tracks", selectedTracks)
+  const handleSavePlaylist = e => {
+    e.preventDefault()
+
+    if (selectedTracks.length === 0) {
+      alert("Please select at least one track to save")
+      return
+    }
+    if (selectedTracks.length > 0 && playlistName.length > 0) {
+      setSavedPlaylists({[playlistName]: selectedTracks})
+      console.log ("Saved Playlists", savedPlaylists)
+    }
+
+    setTimeout(() => {
+      setPlaylistName('New Playlist')
+      setSelectedTracks([])
+      setTracks([])
+      setFilteredTracks([])
+      setSearchQuery('')
+      setIsModalOpen(true)
+    }, 100)
+  }
+
+  const onModalClose = () => {
+    setIsModalOpen(false)
+  }
+
+
 
   return (
     <div>
-      <div className='text-3xl font-bold text-emerald-600 bg-emerald-100 p-5 rounded-lg h-full flex flex-col gap-8'>
-        Spotify Jamming
-        
+      <div className='bg-teal-400 bg-gradient-to-r from-teal-400 to-lime-600 p-5 rounded-[32px] h-full flex flex-col gap-8'>
+      
         <form 
-          className='flex flex-col gap-4 w-48 h-full mx-auto'
+          className='flex flex-col gap-3 w-48 h-full mx-auto'
           onSubmit={handleSearchRequest}>
+          <h1 className='text-4xl font-bold text-slate-50 mx-auto w-96 text-left pb-4'>
+            Spotify Jamming
+          </h1> 
           <input 
             type='text' 
             value={searchQuery}
             onChange={handleSearch}
-            placeholder='Search...'
-            className='w-full h-full rounded-lg bg-gray-100 p-1 text-black text-center'
+            placeholder='Track name, artist, etc...'
+            className='w-64 h-10 text-lg font-bold rounded-lg bg-emerald-900 p-1  text-slate-50 text-center'
           />
           <button 
             type='submit'
-            className='w-full h-full rounded-lg bg-emerald-600 p-2 text-white text-center'>
+            className='w-64 h-10 text-xl font-bold rounded-lg bg-slate-50 text-slate-900 px-24 text-center transition-all hover:bg-slate-300'>
               Search
           </button>
         </form>
       </div>
-      <div className='grid grid-cols-2 gap-1 h-full mt-10'>
-        <Tracklist filteredTracks={filteredTracks} handleAddTrack={handleAddTrack} handleRemoveTrack={handleRemoveTrack} />
-        <Playlist selectedTracks={selectedTracks} handleRemoveTrack={handleRemoveTrack} />
+      <div className='grid grid-cols-2 gap-16 h-full mt-10'>
+        <Tracklist 
+          filteredTracks={filteredTracks} 
+          handleAddTrack={handleAddTrack} 
+          handleRemoveTrack={handleRemoveTrack} />
+        <Playlist 
+          selectedTracks={selectedTracks} 
+          handleRemoveTrack={handleRemoveTrack} 
+          playlistName={playlistName} 
+          setPlaylistName={setPlaylistName}
+          handleSavePlaylist={handleSavePlaylist} />
       </div>
+      <SuccessModal 
+        onModalClose={onModalClose} 
+        isModalOpen={isModalOpen} 
+        modalMessage={playlistName} />
     </div>
   )
 }
