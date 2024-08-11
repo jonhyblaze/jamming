@@ -3,9 +3,12 @@ import { useState, useEffect } from 'react'
 import Tracklist from './components/Tracklist'
 import Playlist from './components/Playlist';
 import SuccessModal from './components/SucessModal';
+import { getSpotifyToken, searchSpotify, savePlaylist } from './utils/spotify';
+import Redirect from './components/Redirect';
 
 
 function App() {
+  const [token, setToken] = useState(null);
   const [tracks, setTracks] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [searchRequest, setSearchRequest] = useState('');
@@ -14,7 +17,15 @@ function App() {
   const [playlistName, setPlaylistName] = useState('New Playlist');
   const [savedPlaylists, setSavedPlaylists] = useState({});
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isRedirect, setIsRedirect] = useState(false);
   
+  useEffect(() => {
+    const initialize = async () => {
+      await getSpotifyToken(setToken);
+    };
+    initialize();
+  }, []);
+
   
   useEffect(() => {
     if (searchRequest.length > 0) {
@@ -48,6 +59,13 @@ function App() {
     if (searchQuery.length > 0) {
       setSearchRequest(searchQuery)
     }
+
+    const performSearch = async () => {
+      await searchSpotify(token, searchQuery, setFilteredTracks);
+    };
+    
+    performSearch();
+
   }
 
   const handleAddTrack = e => {
@@ -80,6 +98,7 @@ function App() {
     }
     if (selectedTracks.length > 0 && playlistName.length > 0) {
       setSavedPlaylists({[playlistName]: selectedTracks})
+      savePlaylist(token, playlistName, selectedTracks, setSavedPlaylists)
       console.log ("Saved Playlists", savedPlaylists)
     }
 
@@ -97,7 +116,9 @@ function App() {
     setIsModalOpen(false)
   }
 
-
+  const onRedirect = () => {
+    setIsRedirect(true)
+  }
 
   return (
     <div>
@@ -139,6 +160,10 @@ function App() {
         onModalClose={onModalClose} 
         isModalOpen={isModalOpen} 
         modalMessage={playlistName} />
+      <Redirect 
+        setToken={setToken}
+        isRedirect={isRedirect}
+        onRedirect={onRedirect} />
     </div>
   )
 }
